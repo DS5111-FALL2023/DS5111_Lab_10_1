@@ -56,3 +56,9 @@ user.email=efrainolivaresuva@gmail.com
     - checks out one of your repositories, that would fully set up your remote for going straight to work on a new machine.
     - completes the setup by remotely installing `make` and the python env package that was missing
     - **OR** anything you find useful... load data you would use in a project, take the next step and trigger a makefile in a cloned repo to setup the python virtual environment, etc etc.
+
+* Verification Steps:
+    - A bash script was made to clone a repo and install dependencies. The screenshot below shows the execution of the script. For the full output see `ouputs/automation-outputs.txt`. Below that is a screenshot confirming the script worked remotely.
+    - ![](/imgs/Screenshot_2023-11-20_124905.png)
+    - ![](/imgs/Screenshot_2023-11-20_124838.png)
+

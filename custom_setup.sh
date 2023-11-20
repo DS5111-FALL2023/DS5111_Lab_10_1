@@ -1,8 +1,10 @@
 #!/bin/bash
 
-echo "Running setup_remote.sh"
-. setup_remote.sh
-echo "setup_remote.sh completed"
+# Step 1) Run setup_remote.sh
+
+## First run the setup_remote.sh script 
+
+# Step 2) Clone a REPO
 
 # Check if repository name is provided as an argument
 if [ $# -eq 0 ]; then
@@ -16,6 +18,8 @@ REPO_NAME=$(basename -s .git "$REPO_URL")
 # Clone the repository
 git clone "$REPO_URL"
 cd "$REPO_NAME"
+
+# Step 3) Install dependencies
 
 # Update apt-get
 apt-get update
