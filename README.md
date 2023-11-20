@@ -61,4 +61,8 @@ user.email=efrainolivaresuva@gmail.com
     - A bash script was made to clone a repo and install dependencies. The screenshot below shows the execution of the script. For the full output see `ouputs/automation-outputs.txt`. Below that is a screenshot confirming the script worked remotely.
     - ![](/imgs/Screenshot_2023-11-20_124905.png)
     - ![](/imgs/Screenshot_2023-11-20_124838.png)
+    - Note for simplicity the user should run the `setup_remote.sh` script before running `custom_setup.sh`. This can be done with a single command as demonstrated below.
+```bash
+(base) dscerbo@DESKTOP-UM1PCBF:~/projects/DS5111_Lab_10_1$ ./setup_remote.sh && ssh -i ~/.ssh/ybt7qf_09192023.pem ubuntu@100.25.203.214 'bash -s' < custom_setup.sh git@github.com:dscer/DS5111_FALL2023_SW2_Lab.git
+```
 
