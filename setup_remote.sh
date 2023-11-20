@@ -8,25 +8,25 @@
 #
 
 
-PUBLIC_IP=100.26.20.129
+PUBLIC_IP=100.25.203.214
 if [ -z "$PUBLIC_IP" ];then echo "PUBLIC_IP is empty!"; exit 1; fi
 
 # This one needs the full PATH
-AWS_PEM_KEY_PATH=~/.ssh/dpy8wq_230918T1755.pem
+AWS_PEM_KEY_PATH=~/.ssh/ybt7qf_09192023.pem
 if [ -z "$AWS_PEM_KEY_PATH" ];then echo "AWS_PEM_KEY_PATH is empty!"; exit 1; fi
 
 # This one needs the full PATH
-GH_KEY_PATH=~/.ssh/EfrainOlivaresUVA
+GH_KEY_PATH=~/.ssh/id_ed25519
 if [ -z "$GH_KEY_PATH" ];then echo "GH_KEY_PATH is empty!"; exit 1; fi
 
 # This is just the NAME of your github ssh key
-GH_KEY_NAME=EfrainOlivaresUVA
+GH_KEY_NAME=id_ed25519
 if [ -z "$GH_KEY_NAME" ];then echo "GH_KEY_NAME is empty!"; exit 1; fi
 
-USER=EfrainOluvaresUVA
+USER=dscer
 if [ -z "$USER" ];then echo "USER is empty!"; exit 1; fi
 
-EMAIL=efrainolivaresuva@gmail.com
+EMAIL=dscerbo001@gmail.com
 if [ -z "$EMAIL" ];then echo "EMAIL is empty!"; exit 1; fi
 
 
