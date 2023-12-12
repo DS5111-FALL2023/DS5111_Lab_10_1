@@ -1,0 +1,130 @@
+Cloning into 'DS5111_FALL2023_SW2_Lab'...
+Reading package lists...
+Make is not installed. Installing...
+E: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock directory /var/lib/apt/lists/
+W: Problem unlinking the file /var/cache/apt/pkgcache.bin - RemoveCaches (13: Permission denied)
+W: Problem unlinking the file /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Permission denied)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  cpp cpp-11 fakeroot fontconfig-config fonts-dejavu-core g++ g++-11 gcc
+  gcc-11 gcc-11-base javascript-common libalgorithm-diff-perl
+  libalgorithm-diff-xs-perl libalgorithm-merge-perl libasan6 libatomic1
+  libc-dev-bin libc-devtools libc6-dev libcc1-0 libcrypt-dev libdeflate0
+  libdpkg-perl libexpat1-dev libfakeroot libfile-fcntllock-perl libfontconfig1
+  libgcc-11-dev libgd3 libgomp1 libisl23 libitm1 libjbig0 libjpeg-turbo8
+  libjpeg8 libjs-jquery libjs-sphinxdoc libjs-underscore liblsan0 libmpc3
+  libnsl-dev libpython3-dev libpython3.10-dev libquadmath0 libstdc++-11-dev
+  libtiff5 libtirpc-dev libtsan0 libubsan1 libwebp7 libxpm4 linux-libc-dev
+  lto-disabled-list manpages-dev python3-dev python3-wheel python3.10-dev
+  rpcsvc-proto zlib1g-dev
+Use 'sudo apt autoremove' to remove them.
+Suggested packages:
+  make-doc
+The following NEW packages will be installed:
+  make
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin:
+0 upgraded, 1 newly installed, 0 to remove and 14 not upgraded.
+Need to get 0 B/180 kB of archives.
+After this operation, 426 kB of additional disk space will be used.
+Selecting previously unselected package make.
+(Reading database ... 70891 files and directories currently installed.)
+Preparing to unpack .../make_4.3-4.1build1_amd64.deb ...
+Unpacking make (4.3-4.1build1) ...
+Setting up make (4.3-4.1build1) ...
+Processing triggers for man-db (2.10.2-1) ...
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+python3-venv is not installed. Installing...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  cpp cpp-11 fakeroot fontconfig-config fonts-dejavu-core g++ g++-11 gcc
+  gcc-11 gcc-11-base javascript-common libalgorithm-diff-perl
+  libalgorithm-diff-xs-perl libalgorithm-merge-perl libasan6 libatomic1
+  libc-dev-bin libc-devtools libc6-dev libcc1-0 libcrypt-dev libdeflate0
+  libdpkg-perl libexpat1-dev libfakeroot libfile-fcntllock-perl libfontconfig1
+  libgcc-11-dev libgd3 libgomp1 libisl23 libitm1 libjbig0 libjpeg-turbo8
+  libjpeg8 libjs-jquery libjs-sphinxdoc libjs-underscore liblsan0 libmpc3
+  libnsl-dev libpython3-dev libpython3.10-dev libquadmath0 libstdc++-11-dev
+  libtiff5 libtirpc-dev libtsan0 libubsan1 libwebp7 libxpm4 linux-libc-dev
+  lto-disabled-list manpages-dev python3-dev python3-wheel python3.10-dev
+  rpcsvc-proto zlib1g-dev
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  python3-venv
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend will not work on a dumb terminal, an emacs shell buffer, or without a controlling terminal.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+dpkg-preconfigure: unable to re-open stdin:
+0 upgraded, 1 newly installed, 0 to remove and 14 not upgraded.
+Need to get 0 B/1038 B of archives.
+After this operation, 6144 B of additional disk space will be used.
+Selecting previously unselected package python3-venv.
+(Reading database ... 70909 files and directories currently installed.)
+Preparing to unpack .../python3-venv_3.10.6-1~22.04_amd64.deb ...
+Unpacking python3-venv (3.10.6-1~22.04) ...
+Setting up python3-venv (3.10.6-1~22.04) ...
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+python3 -m venv env
+. env/bin/activate; pip install -r requirements.txt
+Collecting pytest
+  Using cached pytest-7.4.3-py3-none-any.whl (325 kB)
+Collecting pylint
+  Using cached pylint-3.0.2-py3-none-any.whl (510 kB)
+Collecting packaging
+  Using cached packaging-23.2-py3-none-any.whl (53 kB)
+Collecting tomli>=1.0.0
+  Using cached tomli-2.0.1-py3-none-any.whl (12 kB)
+Collecting iniconfig
+  Using cached iniconfig-2.0.0-py3-none-any.whl (5.9 kB)
+Collecting exceptiongroup>=1.0.0rc8
+  Using cached exceptiongroup-1.1.3-py3-none-any.whl (14 kB)
+Collecting pluggy<2.0,>=0.12
+  Using cached pluggy-1.3.0-py3-none-any.whl (18 kB)
+Collecting mccabe<0.8,>=0.6
+  Using cached mccabe-0.7.0-py2.py3-none-any.whl (7.3 kB)
+Collecting dill>=0.2
+  Using cached dill-0.3.7-py3-none-any.whl (115 kB)
+Collecting tomlkit>=0.10.1
+  Using cached tomlkit-0.12.3-py3-none-any.whl (37 kB)
+Collecting platformdirs>=2.2.0
+  Using cached platformdirs-4.0.0-py3-none-any.whl (17 kB)
+Collecting astroid<=3.1.0-dev0,>=3.0.1
+  Using cached astroid-3.0.1-py3-none-any.whl (275 kB)
+Collecting isort<6,>=4.2.5
+  Using cached isort-5.12.0-py3-none-any.whl (91 kB)
+Collecting typing-extensions>=4.0.0
+  Using cached typing_extensions-4.8.0-py3-none-any.whl (31 kB)
+Installing collected packages: typing-extensions, tomlkit, tomli, pluggy, platformdirs, packaging, mccabe, isort, iniconfig, exceptiongroup, dill, pytest, astroid, pylint
+Successfully installed astroid-3.0.1 dill-0.3.7 exceptiongroup-1.1.3 iniconfig-2.0.0 isort-5.12.0 mccabe-0.7.0 packaging-23.2 platformdirs-4.0.0 pluggy-1.3.0 pylint-3.0.2 pytest-7.4.3 tomli-2.0.1 tomlkit-0.12.3 typing-extensions-4.8.0
+Setup complete!
